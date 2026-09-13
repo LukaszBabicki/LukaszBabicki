@@ -6,8 +6,7 @@ Platform Engineering**.
 ## Currently building
 
 A homelab that works like a small SRE/platform: a K3s cluster monitored by
-Zabbix (Zabbix-as-Code, including Dell PowerEdge/iDRAC integration via SNMP
-and Redfish), and an MCP server that gives Claude Code direct, read-only
+Zabbix (Zabbix-as-Code, SNMP), and an MCP server that gives Claude Code direct, read-only
 access to live monitoring data — so an AI assistant can answer "what's
 broken right now?" without a human opening the Zabbix UI first.
 
